@@ -5,4 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hi" />
+
+    <Button
+        android:id="@+id/buttonEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send email" />
+
+    <Button
+        android:id="@+id/buttonRP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RP" />
+</LinearLayout>
